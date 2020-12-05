@@ -1,0 +1,9 @@
+# Product 1, Lot 3
+p1/lot3,john@msn.com,mypass1,specs1.pdf,specs2.pdf
+p1/lot3,anna@yahoo.com,mypass2,specs1.pdf,specs2.pdf
+# Product 1, Lot 9
+p1/lot9,john@msn.com,mypass3,specs3.pdf
+p1/lot9,anna@yahoo.com,mypass4,specs3.pdf
+# Product 3, Lot 2
+p3/lot2,william@gmail.com,mypass5,specs4.pdf,specs5.pdf
+p3/lot2,lara@gmail.com,mypass6,specs4.pdf,specs5.pdf
