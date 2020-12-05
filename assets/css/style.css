@@ -28,12 +28,12 @@ body {
 .content {
     position: absolute;
     width: 100%;
-    top: 200px;
+    top: 230px;
 }
 
 .content img {
     width: 100%;
-    max-width: 750px;
+    max-width: 700px;
 }
 
 .email {
@@ -41,8 +41,8 @@ body {
 }
 
 .email a {
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 450;
     color: #767676;
     text-decoration: none;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .media-items {
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -89,31 +89,47 @@ body {
     height: 22%;
     width: 100%;
     transition: 65%;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
-.stripe p {
+.stripe-text {
+    width: -webkit-fill-available;
+    position: absolute;
+    bottom: -5px;
+}
+
+.stripe-text p {
+    margin-top: 7px;
     font-size: 25px;
     color: white;
 }
 
+footer {
+    margin: 30px 0;
+}
+
 @media (max-width: 1140px) {
     .content img {
-        width: 700px;
+        width: 650px;
     }
 }
 
 @media (max-width: 991px) {
     .video {
         padding-bottom: 0vw;
-        height: 95vh;
+        height: 96vh;
     }
     .content-wrap{
-        height: 95vh;
+        height: 90vh;
         overflow: hidden;
+        margin-top: 100px;
     }
     .content {
-        top: 200px;
+        top: 170px;
+    }
+    .media-items {
+        width: 80%;
+        margin: auto;
     }
     .video-wrap{
         top: 42%;
@@ -121,7 +137,7 @@ body {
         transform: translateY(-50%);
     }
     .video-wrap video {
-        max-height: 650px;
+        max-height: 96vh;
     }
 
     .content img {
@@ -129,13 +145,12 @@ body {
     }
     .email {
         margin-top: 80px;
-        position: absolute;
         width: 100%;
         top: 70%;
         left: 0;
     }
     .email a{
-        font-size: 20px;
+        font-size: 25px;
     }
     .mini {
         width: 45px;
@@ -146,19 +161,37 @@ body {
     .media-item img {
         width: 205px;
     }
+    .stripe-text p {
+        margin-top: 5px;
+        font-size: 20px;
+        color: white;
+    }
 }
 
 @media (max-width: 768px) {
     .video-wrap video {
-        max-height: 550px;
+        max-height: 93vh;
+    }
+
+    .content-wrap{
+        height: 80vh;
+        overflow: hidden;
+        margin-top: 100px;
     }
 
     .content img {
-        width: 400px;
+        width: 500px;
+    }
+    .content {
+        top: 170px;
+    }
+    .media-items {
+        width: 80%;
+        margin: auto;
     }
 
     .email a {
-        font-size: 16px;
+        font-size: 20px;
     }
     .mini {
         width: 40px;
@@ -169,22 +202,39 @@ body {
     .media-item img {
         width: 135px;
     }
+    .stripe-text p {
+        margin-top: 4px;
+        font-size: 15px;
+        color: white;
+    }
+    .stripe-text {
+        bottom: -6px;
+    }
 }
 
 @media (max-width: 576px) {
     .video-wrap video {
-        height: 95vw;
+        height: 70vh;
+    }
+
+    .content-wrap{
+        height: 70vh;
+        overflow: hidden;
+        margin-top: 100px;
     }
 
     .content img {
         width: 76%
+    }
+    .content {
+        top: 130px;
     }
 
     .email {
         margin-top: 12.5vw;
     }
     .email a {
-        font-size: 14px;
+        font-size: 18px;
     }
     .mini {
         width: 35px;
@@ -194,5 +244,52 @@ body {
     }
     .media-item img {
         width: 105px;
+    }
+    .media-items {
+        width: 85%;
+        margin: auto;
+    }
+    .stripe-text p {
+        margin-top: 4px;
+        font-size: 13px;
+        color: white;
+    }
+    .stripe-text {
+        bottom: -8px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .content {
+        top: 110px;
+    }
+
+    .email {
+        margin-top: 10.5vw;
+    }
+    .email a {
+        font-size: 15px;
+    }
+    .mini {
+        width: 35px;
+    }
+    .media-item {
+        width: 100px;
+    }
+    .media-item img {
+        width: 80px;
+    }
+    .media-items {
+        width: 90%;
+        margin: auto;
+    }
+    .stripe-text {
+        bottom: -10px;
+    }
+    .stripe-text p {
+        margin-top: 4px;
+        font-size: 10px;
+        color: white;
     }
 }
