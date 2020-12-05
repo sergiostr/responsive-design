@@ -4,12 +4,16 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Protein Switched Research">
+    <meta name="keywords" content="HTML, CSS, PHP, XML, JavaScript">
+    <meta name="author" content="Dejan Pajik">
     <title>proteinfusion.com | Protein Switches Research</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />    
     </head>
+    <!-- Body -->
     <body>
         <!-- Header -->
         <header>
@@ -122,8 +126,6 @@
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-        <script type="text/javascript">
-    
-        </script>
     </body>
+    <!-- End Body -->
 </html>
