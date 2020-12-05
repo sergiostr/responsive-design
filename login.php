@@ -36,17 +36,22 @@
         <!-- End Header -->
         <!-- Main Body -->
         <div class="container">
-            <div class="row">
-                <div class="panel d-flex justify-content-center ">
-                    <div class="">
-                        <h3>Product ID</h3>
-                        <h3>Lot ID</h3>
+            <div class="row justify-content-center">
+                <div class="panel bg-dark">
+                    <div class="detail">
+                        <h5 class="text-center text-danger">Product ID: ID</h5>
+                        <h5 class="text-center text-danger">Lot ID: ID</h5>
                     </div>
-                    <h3>View Datasheet</h3>
-                    <form action="" method="post">
-                        <input type="text" name="" id="">
-                        <input type="text" name="" id="">
-                        <input type="submit" value="Login Button">
+                    <br>
+                    <h5 class="text-center text-danger">View Datasheet</h5>
+                    <form action="login.php" type="POST">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email address">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="pwd" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login Button</button>
                     </form>
                 </div>
             </div>
@@ -56,8 +61,8 @@
         <footer>
             <div class="container">
                 <!-- Email address -->
-                <div class="email text-center">
-                    <a class="d-inline-block" href="mailto:info@proteinfusion.com">info@proteinfusion.com</a>
+                <div class="row email justify-content-center">
+                    <a class="d-inline-block" href="mailto:info@proteinfusion.com" style="font-size: 20px">info@proteinfusion.com</a>
                 </div>
             </div>
         </footer> 
