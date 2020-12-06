@@ -15,24 +15,22 @@
     </head>
     <!-- Body -->
     <body>
-        <!-- Header -->
-        <header>
-            <nav class="navbar navbar-expand-sm fixed-top">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <!-- Mini logo -->
-                        <a href="#" >
-                            <img class="mini" src="assets/media/mini-logo.png" alt="Logo">
-                        </a>
-                        <!-- QR code -->
-                        <a class="qr-img" href="#">
-                            <img class="mini" src="assets/media/QR-icon.png" alt="QR-code">
-                        </a> 
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- End Header -->
+        <!-- Nav bar -->
+        <nav class="navbar fixed-top" id="navbar" style="top: -80px;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <!-- Mini logo -->
+                    <a href="#" >
+                        <img class="mini" src="assets/media/mini-logo.png" alt="Logo">
+                    </a>
+                    <!-- QR code -->
+                    <a class="qr-img" href="#">
+                        <img class="mini" src="assets/media/QR-icon.png" alt="QR-code">
+                    </a> 
+                </li>
+            </ul>
+        </nav>
+        <!-- End Nav bar -->
         <!-- Main Body -->
         <div class="container">
             <div class="row">
@@ -126,6 +124,7 @@
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/style.js"></script>
     </body>
     <!-- End Body -->
 </html>

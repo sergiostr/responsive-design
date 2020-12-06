@@ -14,6 +14,11 @@
     border: 3px solid rgb(131, 130, 129);
 }
 
+.navbar {
+    top: 0px !important;
+}
+
+
 .panel {
     margin:110px 0 60px 0;
     padding: 50px;

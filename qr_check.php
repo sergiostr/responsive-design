@@ -17,22 +17,20 @@
     <!-- Body -->
     <body>
         <!-- Header -->
-        <header>
-            <nav class="navbar navbar-expand-sm fixed-top">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <!-- Mini logo -->
-                        <a href="#" >
-                            <img class="mini" src="assets/media/mini-logo.png" alt="Logo">
-                        </a>
-                        <!-- QR code -->
-                        <!-- <a class="qr-img" href="#">
-                            <img class="mini" src="assets/media/QR-icon.png" alt="QR-code">
-                        </a>  -->
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <!-- Mini logo -->
+                    <a href="#" >
+                        <img class="mini" src="assets/media/mini-logo.png" alt="Logo">
+                    </a>
+                    <!-- QR code -->
+                    <!-- <a class="qr-img" href="#">
+                        <img class="mini" src="assets/media/QR-icon.png" alt="QR-code">
+                    </a>  -->
+                </li>
+            </ul>
+        </nav>
         <!-- End Header -->
         <!-- Main Body -->
         <div class="container">

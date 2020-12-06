@@ -19,6 +19,15 @@ p {
     margin-bottom: 0 !important;
 }
 
+.navbar {
+    top: 0px !important;
+}
+
+iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .panel-view {
     margin:90px 0 10px 0;
     width: 60%;
