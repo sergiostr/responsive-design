@@ -22,6 +22,7 @@ $(document).ready(function(){
         console.log('you are awesome')
     else
         console.log('use jade')
+    
   });
 
 
