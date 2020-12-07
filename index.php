@@ -49,56 +49,56 @@
             <div class="row d-flex justify-content-center media-items">
                 <!-- Media Item -->
                 <div class="media-item">
-                    <img src="assets/media/camera.png" alt="icons">
+                    <img src="assets/media/1.png" alt="icons">
                     <div class="stripe d-flex justify-content-center">
                         
                     </div>
                     <div class="stripe-text">
-                        <p class="text-center">Stripe/Text Overlay</p>
+                        <p class="text-center">EGFR inhibitor</p>
                     </div>   
                 </div>
                 <!-- End Media Item -->
                 <!-- Media Item -->
                 <div class="media-item">
-                    <img src="assets/media/cal.png" alt="icons">
+                    <img src="assets/media/1.png" alt="icons">
                     <div class="stripe d-flex justify-content-center">
                         
                     </div>
                     <div class="stripe-text">
-                        <p class="text-center">Stripe/Text Overlay</p>
+                        <p class="text-center">EGFR inhibitor</p>
                     </div>
                 </div>
                 <!-- End Media Item -->
                 <!-- Media Item -->
                 <div class="media-item">
-                    <img src="assets/media/cal.png" alt="icons">
+                    <img src="assets/media/1.png" alt="icons">
                     <div class="stripe d-flex justify-content-center">
                         
                     </div>
                     <div class="stripe-text">
-                        <p class="text-center">Stripe/Text Overlay</p>
+                        <p class="text-center">EGFR inhibitor</p>
                     </div>
                 </div>
                 <!-- End Media Item -->
                 <!-- Media Item -->
                 <div class="media-item">
-                    <img src="assets/media/camera.png" alt="icons">
+                    <img src="assets/media/1.png" alt="icons">
                     <div class="stripe d-flex justify-content-center">
                         
                     </div>
                     <div class="stripe-text">
-                        <p class="text-center">Stripe/Text Overlay</p>
+                        <p class="text-center">EGFR inhibitor</p>
                     </div>
                 </div>
                 <!-- End Media Item -->
                 <!-- Media Item -->
                 <div class="media-item">
-                    <img src="assets/media/camera.png" alt="icons">
+                    <img src="assets/media/1.png" alt="icons">
                     <div class="stripe d-flex justify-content-center">
                         
                     </div>
                     <div class="stripe-text">
-                        <p class="text-center">Stripe/Text Overlay</p>
+                        <p class="text-center">EGFR inhibitor</p>
                     </div>
                 </div>
                 <!-- End Media Item -->
@@ -108,15 +108,14 @@
         <!-- End Main Body -->
         <!-- Footer -->
         <footer>
-            <div class="container">
+            <div class="container-fluid">
                 <!-- Email address -->
                 <div class="email text-center">
                     <a class="d-inline-block" href="mailto:info@proteinfusion.com">info@proteinfusion.com</a>
                 </div>
                 <!-- Company infor -->
-                <div class="email text-center">
-                    <p><a class="d-inline-block">Company Name</a></p>
-                    <p><a class="d-inline-block">Company Address</a></p>
+                <div class="company email text-center">
+                    <p><a class="d-inline-block">Protein fusion - All Rights Reserved 2020</a></p>
                 </div>
             </div>
         </footer> 
